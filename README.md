@@ -23,9 +23,11 @@ A clean, teaching-friendly MySQL schema for a small retailer to manage products,
    ```
 3. The script creates a database named `retail_inventory` and all tables, plus seed data in lookup tables.
 
-## ERD
+## ERD (Mermaid)
 
 
+
+```mermaid
 erDiagram
   roles ||--o{ users : "has"
   users ||--o{ purchase_orders : "ordered"
